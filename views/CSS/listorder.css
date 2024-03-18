@@ -1,0 +1,178 @@
+.list {
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 10%;
+    height: auto;
+    border: 1px solid rgba(98, 0, 0, 0.76);
+    border-radius: 30px;
+    margin: 100px 0;
+    padding: 40px 30px;
+}
+
+.fun {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.fun a {
+    display: block;
+    font-size: 26px;
+    position: relative;
+    color: rgba(98, 0, 0, 0.76);
+    text-decoration: none;
+}
+
+.fun svg {
+    width: 50px;
+    height: 50px;
+    color: rgba(98, 0, 0, 0.76);
+}
+
+
+.list .fun h4 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(98, 0, 0, 0.76);
+}
+
+.bar {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background-color: rgba(1, 0, 1, 0.336);
+    align-items: center;
+    border-radius: 25px;
+    gap: 15px;
+    margin: 20px 10px;
+    padding: 0 30px;
+}
+
+.bar label {
+    color: rgba(98, 0, 0, 0.76);
+    width: 150px;
+    background-color: #fff;
+    border-radius: 15px;
+    transition: all 0.2s;
+    padding: 4px 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bar label:hover {
+    border: 1px solid rgba(98, 0, 0, 0.76);
+    border-radius: 30px;
+}
+
+.bar input[type="radio"]:checked+label {
+    background-color: rgba(98, 0, 0, 0.76);
+    color: #fff;
+    transition: all 0.2s;
+    opacity: .9;
+}
+
+.bar input[type="radio"] {
+    display: absolute;
+    position: absolute;
+    opacity: 0;
+}
+
+.sub {
+    position: relative;
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+}
+
+.total {
+    position: relative;
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+}
+
+.pric {
+    position: relative;
+    font: inherit;
+    max-width: 120px;
+    word-wrap: break-word;
+}
+
+.infoder {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 220px);
+    width: 80%;
+}
+
+.oder {
+    position: relative;
+    display: grid;
+    width: 200px;
+    height: 420px;
+    border-radius: 15px;
+    border: 1px solid rgba(98, 0, 0, 0.76);
+    margin-bottom: 15px;
+}
+
+hr {
+    margin: 0.5rem !important;
+}
+
+.im {
+    width: 198px;
+    height: 270px;
+    border-radius: 15px 15px 0 0;
+}
+
+.oder-info {
+    padding: 3px;
+}
+
+.tal1 {
+    background-color: rgb(74, 74, 74);
+    border-radius: 15px;
+    width: 120px;
+    text-align: center;
+    color: #fff;
+}
+
+.tal2 {
+    background-color: rgba(98, 0, 0, 0.76);
+    border-radius: 15px;
+    width: 120px;
+    text-align: center;
+    color: #fff;
+}
+
+.tal3 {
+    background-color: rgb(85, 255, 184);
+    border-radius: 15px;
+    width: 120px;
+    text-align: center;
+    color: #fff;
+}
+
+.tal4 {
+    background-color: rgb(187, 85, 255);
+    border-radius: 15px;
+    width: 120px;
+    text-align: center;
+    color: #fff;
+}
+
+.tal5 {
+    background-color: rgb(255, 173, 85);
+    border-radius: 15px;
+    width: 120px;
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,298 @@
+
+body {
+    margin: 0;
+    /* background-color: antiquewhite; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head {
+    position: relative;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 50px 0 0px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bo {
+    width: 80%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    top: 30px;
+    transform: translate(-50%, 0);
+    display: flex;
+    gap: 30px;
+    margin-bottom: 200px;
+}
+
+.le {
+    width: 70%;
+    height: auto;
+    position: relative;
+}
+
+.del {
+    position: relative;
+}
+
+.del input {
+    position: relative;
+    border: 1px solid rgba(98, 0, 0, 0.76);
+    border-radius: 25px;
+    margin: 10px 0;
+    height: 40px;
+    padding: 0 30px;
+}
+
+.namede {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 0 20px 10px
+}
+
+.namecus {
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+
+.namecus input {
+    width: 50%;
+}
+
+.addr {
+    position: relative;
+    width: 100%;
+    height: 40px;
+
+}
+
+.city {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.city input {
+    width: 33.33%;
+}
+
+.warnn {
+    position: relative;
+    color: rgba(85, 56, 56, 0.853);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.opt {
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+
+.cad {
+    position: relative;
+    width: 50%;
+}
+
+.cad label {
+    color: rgba(98, 0, 0, 0.76);
+    display: flex;
+    background-color: rgb(252, 247, 237);
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.2s;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.cad label:hover {
+    border: 1px solid rgba(98, 0, 0, 0.76);
+}
+
+.cad input[type="radio"]:checked+label {
+    display: flex;
+    border: 1px solid rgba(98, 0, 0, 0.76);
+    background-color: rgba(98, 0, 0, 0.76);
+    color: #fff;
+    transition: all 0.2s;
+    opacity: .9;
+}
+
+.cad input[type="radio"] {
+    display: absolute;
+    position: absolute;
+    opacity: 0;
+}
+
+.paycard {
+    display: none;
+}
+
+.cad label svg {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+}
+
+.ri {
+    width: 30%;
+    height: auto;
+    position: relative;
+}
+
+.su,
+.en {
+    position: relative;
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+}
+
+.tol {
+    position: relative;
+    display: flex;
+    width: 100%;
+    color: rgba(98, 0, 0, 0.76);
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+}
+
+.prod {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.prod img {
+    width: 80px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.napr {
+    position: relative;
+    width: 100%;
+    height: 85px;
+    margin: 10px 0 0 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.qu {
+    position: relative;
+    height: auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forward {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    justify-items: center;
+}
+
+.forward label,.confirm button {
+    color: rgba(98, 0, 0, 0.76);
+    position: relative;
+    background-color: rgb(252, 247, 237);
+    border-radius: 25px;
+    margin: 3px 0;
+    text-align: center;
+    width: 50%;
+    left: 50%;
+    border: 0;
+    transform: translate(-50%, 0);
+    transition: all 0.2s;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.forward label:hover,
+.fcheck label:hover,
+.confirm button:hover {
+    border: 1px solid rgb(252, 247, 237);
+    background-color: rgba(98, 0, 0, 0.76);
+    color: #fff;
+    translate: 3.75s;
+}
+
+.forward input[type="checkbox"],
+.fcheck input[type="checkbox"]
+{
+display: absolute;
+position: absolute;
+opacity: 0;
+}
+
+.check {
+    position: absolute;
+    display: none;
+    z-index: 10;
+    width: 80%;
+    height: 780px;
+    left: 10%;
+    background-color: rgba(87, 87, 87, 0.36);
+    border-radius: 50px;
+}
+
+.ccheck {
+    position: absolute;
+    background-color: rgba(255, 255, 255, .9);
+    width: 30%;
+    right: 0;
+    top : 350px;
+    border-radius: 50px 0 0 50px;
+}
+
+.ccheck p {
+    padding: 50px 0 25px 0;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(98, 0, 0, 0.76);
+}
+
+.option {
+    display: block;
+    justify-content: space-between;
+}
+
+.fcheck label,
+.confirm button {
+    color: rgba(98, 0, 0, 0.76);
+    position: relative;
+    background-color: rgb(255, 254, 139);
+    border-radius: 25px;
+    margin: 11px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: all 0.2s;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 18px;
+}

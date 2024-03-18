@@ -1,0 +1,133 @@
+body{
+    width: 100%;
+}
+
+.top{
+    position: relative;
+    display: flex;
+    padding: 40px 65px;
+    width: 100%;
+}
+.topleft{
+    position: relative;
+    width: 30%;
+}
+.nameal{
+    font-size: 32px;
+    font-weight: 500;
+    color: rgba(98, 0, 0, 0.76);
+}
+
+.topleft>img{
+    position: relative;
+    width: 350px;
+    height: 500px;
+
+}
+
+.topright,.center{
+    position: relative;
+    padding: 50px 30px;
+    width: 35%;
+}
+
+.top1{
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.content{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(98, 0, 0, 0.76);
+}
+.topcontent{
+    font-size: 22px;
+    font-weight: 300;
+    color: rgba(98, 0, 0, 0.76);
+}
+.descript{
+    position: relative;
+    width: 80%;
+    top: 50px;
+}
+.top2{
+    position: relative;
+    display: block;
+    width: 100%;
+    top: 50px;
+}
+.top21{
+    position: relative;
+    display: block;
+    width: 80%;
+}
+.top211{
+    position:relative;
+    display: flex;
+    width: 100%;
+    height:100px;
+}
+.top211>img{
+    position: relative;
+    width: 80px;
+    height: 80px
+}
+.top2112{
+    position: relative;
+    display: block;
+    left: 20px;
+    height: 100px;
+}
+.top22{
+    position: relative;
+    display: block;
+}
+
+.top221{
+    position: relative;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+
+}
+
+.top221>p,.price{
+    font-size: 25px;
+    font-weight: 400;
+    color: #555555;
+}
+
+.top22>button{
+    position: relative;
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    border: 1px solid rgba(98, 0, 0, 0.76);
+    border-radius: 30px;
+    background-color: #fff;
+    color: rgba(98, 0, 0, 0.76);
+    transition: .2s;
+}
+
+.top22>button:hover{
+    background-color:rgba(98, 0, 0, 0.76);
+    color: #fff;
+}
+
+.ads>img{
+    position: relative;
+    left: 5%;
+    width:90%;
+    height: auto;
+}
+
+.line{
+    position: relative;
+    width: 50px;
+    height: 2px;
+    background-color: rgba(98, 0, 0, 0.76);
+    transform: translateY(18px);
+}

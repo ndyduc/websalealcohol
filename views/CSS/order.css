@@ -1,0 +1,349 @@
+.mainpro {
+    background-color: transparent;
+    position: relative;
+    width: 80%;
+    height: auto;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #000;
+    margin: 100px 0;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none !important;
+    color: rgba(98, 0, 0, 0.76);
+}
+
+.proleft {
+    position: relative;
+    width: 70%;
+    height: auto;
+
+}
+
+.proleft h4 {
+    position: relative;
+    align-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    left: 30px;
+    top: 10px;
+}
+
+.spp {
+    position: relative;
+    display: flex;
+    padding: 20px 0;
+}
+
+.spp img {
+    width: 160px;
+    height: 250px;
+    background-color: antiquewhite;
+}
+
+.infsp {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.infpro {
+    width: 80%;
+    padding: 20px 0;
+    height: 150px;
+    overflow: hidden;
+}
+
+.nsp {
+    position: relative;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: space-between;
+}
+
+.quan {
+    position: relative;
+    display: flex;
+    color: rgb(90, 85, 78);
+    gap: 20px;
+    height: 90px;
+    padding: 30px 0;
+    justify-content: space-between;
+}
+
+.tity {
+    position: relative;
+    display: flex;
+    width: 68%;
+    height: 30px !important;
+    color: rgba(98, 0, 0, 0.76);
+}
+
+.tity input {
+    text-transform: translate(-50%, -50%);
+    position: relative;
+    color: rgba(98, 0, 0, 0.76);
+    background-color: transparent;
+    text-align: center;
+    width: 50px;
+    padding-left: 10px;
+    height: 26px;
+    border: solid 2.5px rgba(98, 0, 0, 0.76);
+    transition: all 0.5s;
+}
+
+.detailre form,
+.detailad form,
+.detailre button,
+.detailad button {
+    margin: 0 !important;
+    padding: 0 !important;
+    /* border : 0 !important; */
+}
+
+.detailre button {
+    border-radius: 15px 0 0 15px;
+    transition: all 0.5s;
+    color: rgba(98, 0, 0, 0.76);
+    background-color: transparent;
+    font-style: 16px;
+    text-align: center;
+    width: 35px;
+    top: 0;
+    padding-left: 10px;
+    height: 26px;
+    border: solid 2.5px rgba(98, 0, 0, 0.76);
+    border-right: 0;
+}
+
+.detailad button {
+    text-transform: translate(-50%, -50%);
+    position: relative;
+    color: rgba(98, 0, 0, 0.76);
+    background-color: transparent;
+    font-style: 16px;
+    text-align: center;
+    width: 35px;
+    top: 0;
+    padding-left: 10px;
+    height: 26px;
+    border: solid 2.5px rgba(98, 0, 0, 0.76);
+    border-left: 0;
+    border-radius: 0 15px 15px 0;
+    transition: all 0.5s;
+}
+
+.edit {
+    position: relative;
+    display: flex;
+    height: fit-content;
+    width: 10%;
+    gap: 20px;
+}
+
+.fav,
+.trash {
+    position: relative;
+    display: flex;
+}
+
+.fav label svg,
+.fav label,
+.fav label,
+.trash label svg {
+    width: 25px;
+    height: 25px !important;
+}
+
+.fav label:hover {
+    color: #ff5252;
+}
+
+.trash label:hover {
+    color: rgba(98, 0, 0, 0.76);
+}
+
+.fav input[type="checkbox"]:checked+label {
+    color: #ff5252;
+    transition: all 0.2s;
+    opacity: .9;
+}
+
+.fav input[type="checkbox"],
+.trash input[type="checkbox"] {
+    display: absolute;
+    position: absolute;
+    opacity: 0;
+}
+
+.proright {
+    position: relative;
+    width: 30%;
+}
+
+.proright h3 {
+    position: relative;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 10px;
+    margin-bottom: 30px;
+}
+
+.sub,
+.en {
+    position: relative;
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.total, #Status {
+    position: relative;
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+}
+.tal {
+    font-size: 16px;
+}
+#Status>select {
+    width: 150px;
+    padding: 0 10px ;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    text-align-last: center; /* Canh giữa văn bản */
+    -moz-text-align-last: center;
+    -webkit-text-align-last: center;
+    cursor: pointer;
+}
+
+#Status>select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #555;
+}
+.stat{
+    width: 150px;
+    text-align: center;
+    border: 1px solid rgba(98, 0, 0, 0.76);
+    border-radius: 15px;
+}
+
+.pric {
+    position: relative;
+    font: inherit;
+}
+
+.proright button {
+    background: transparent;
+    color: rgba(98, 0, 0, 0.76);
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 26px;
+    border: 3px solid rgba(98, 0, 0, 0.76);
+    border-radius: 15px;
+    transform: translate(0);
+    width: 90%;
+    height: 52px;
+    left: 5%;
+    position: relative;
+}
+
+.proright button:hover {
+    background: rgba(98, 0, 0, 0.76);
+    color: #fff;
+    border-radius: 30px;
+}
+
+.mess {
+    padding-left: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #252525;
+}
+
+.payment {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pay {
+    width: 150px;
+    height: 25px;
+    border-radius: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+.cas  {
+    background-color: rgb(255, 85, 85);
+}
+
+.car {
+    background-color: rgb(255, 178, 85);
+}
+
+.can{
+    background-color: rgba(98, 0, 0, 0.76);
+}
+
+.check {
+    position: sticky;
+    display: block;
+    z-index: 2;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.ccheck {
+    position: absolute;
+    background-color: rgba(240, 252, 217, 0.9);
+    width: 100%;
+    text-align: center;
+    border-radius: 0 0 50px 50px;
+}
+
+.ccheck p {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(98, 0, 0, 0.76);
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
